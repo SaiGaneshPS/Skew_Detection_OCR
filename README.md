@@ -26,11 +26,11 @@ Datasets were created with images rotated at the following degrees: 180, 90, 30,
 
 | Resolution | Number of Images | Training | Validation | Testing |
 |------------|------------------|----------|------------|---------|
-| 180        | 564              | 176      | 2236       | N/A     |
-| 90         | 1127             | 352      | 4472       | N/A     |
-| 30         | 3380             | 1056     | 13416      | N/A     |
-| 15         | 6759             | 2112     | 26832      | N/A     |
-| 5          | 20276            | 6336     | 80496      | N/A     |
+| 180        | 2976             | 564      | 176        | 2236    |
+| 90         | 5951             | 1127     | 352        | 4472    |
+| 30         | 17852            | 3380     | 1056       | 13416   |
+| 15         | 35703            | 6759     | 2112       | 26832   |
+| 5          | 107168           | 20276    | 6336       | 80496   |
 
 ## Results
 ### Comparison between DenseNet and Swin Transformer
