@@ -35,14 +35,13 @@ Datasets were created with images rotated at the following degrees: 180, 90, 30,
 ## Results
 ### Comparison between DenseNet and Swin Transformer
 
-| Resolutions | Densenet | Swin Transformer |
-|-------------|----------|------------------|
-|             | Without Data Augmentation | With Data Augmentation | Without Data Augmentation | With Data Augmentation |
-| 180         | 97% Accuracy, 97% F1 Score | 97% Accuracy, 97% F1 Score | 99% Accuracy, 99% F1 Score | 99% Accuracy, 99% F1 Score |
-| 90          | 99% Accuracy, 99% F1 Score | 93% Accuracy, 93% F1 Score | 88% Accuracy, 88% F1 Score | 99% Accuracy, 99% F1 Score |
-| 30          | 99% Accuracy, 99% F1 Score | 94% Accuracy, 94% F1 Score | 99% Accuracy, 99% F1 Score | 99% Accuracy, 99% F1 Score |
-| 15          | 99% Accuracy, 99% F1 Score | 98% Accuracy, 98% F1 Score | 99% Accuracy, 99% F1 Score | 99% Accuracy, 99% F1 Score |
-| 5           | 98% Accuracy, 98% F1 Score | 93% Accuracy, 93% F1 Score | 99% Accuracy, 99% F1 Score | 98% Accuracy, 98% F1 Score |
+| Resolutions | Densenet Without Data Augmentation | Densenet With Data Augmentation | Swin Transformer Without Data Augmentation | Swin Transformer With Data Augmentation |
+|-------------|-----------------------------------|--------------------------------|------------------------------------------|---------------------------------------|
+| 180         | 97% Accuracy, 97% F1 Score        | 97% Accuracy, 97% F1 Score     | 99% Accuracy, 99% F1 Score               | 99% Accuracy, 99% F1 Score            |
+| 90          | 99% Accuracy, 99% F1 Score        | 93% Accuracy, 93% F1 Score     | 88% Accuracy, 88% F1 Score               | 99% Accuracy, 99% F1 Score            |
+| 30          | 99% Accuracy, 99% F1 Score        | 94% Accuracy, 94% F1 Score     | 99% Accuracy, 99% F1 Score               | 99% Accuracy, 99% F1 Score            |
+| 15          | 99% Accuracy, 99% F1 Score        | 98% Accuracy, 98% F1 Score     | 99% Accuracy, 99% F1 Score               | 99% Accuracy, 99% F1 Score            |
+| 5           | 98% Accuracy, 98% F1 Score        | 93% Accuracy, 93% F1 Score     | 99% Accuracy, 99% F1 Score               | 98% Accuracy, 98% F1 Score            |
 
 ## Conclusion
 When viewed as a classification problem, skew correction with deep learning models can perform well even in cases where traditional regression algorithms fall short. The Swin Transformer, especially with data augmentation, achieves an average accuracy of 99% across various datasets, making it highly effective for this task.
